@@ -12,7 +12,7 @@ endif()
 
 #INCLUDE(CTest)
 find_path(IMPACT_INC com.h HINTS ../IMPACT/COM/include)
-find_path(SURF_INC Manifold_2.h HINTS ../IMPACT/SufUtil/include)
+find_path(SURF_INC Manifold_2.h HINTS ../IMPACT/SurfUtil/include)
 find_path(MAP_INC mapbasic.h HINTS ../IMPACT/SurfMap/include)
 find_path(SIMPAL_INC Rocblas.h HINTS ../IMPACT/Simpal/include)
 set (LIB_SRCS src/Propagation_3.C src/MarkerParticles_3.C src/FaceOffset_3.C src/Rocprop.C
